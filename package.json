@@ -1,8 +1,7 @@
 {
   "name": "tailwindproject",
   "private": true,
-  "homepage": "https://piyushk8.github.io/GourmetHub",
-
+  "homepage": "https://Piyushk8.github.io/GourmetHub",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -11,9 +10,8 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "start": "react-scripts start",
-    
-      "predeploy": "npm run build",
-   "deploy": "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "react": "^18.2.0",
